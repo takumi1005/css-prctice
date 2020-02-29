@@ -15,3 +15,9 @@ span:hover {
   background-color: red;
   box-shadow: 10px 10px 15px -10px;
 }
+
+.practice4 {
+  display: inline;
+  padding: 8px;
+  border-bottom: dotted 2px blue;
+}
