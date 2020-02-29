@@ -21,3 +21,7 @@ span:hover {
   padding: 8px;
   border-bottom: dotted 2px blue;
 }
+
+textarea::placeholder, input::placeholder {
+  color: red;
+}
