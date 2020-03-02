@@ -41,3 +41,11 @@ textarea::placeholder, input::placeholder {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.cat-red {
+  color: red;
+}
+
+#catBlue {
+  color: blue;
+}
