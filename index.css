@@ -49,3 +49,23 @@ textarea::placeholder, input::placeholder {
 #catBlue {
   color: blue;
 }
+
+input[name="green"]::placeholder {
+  color: green;
+}
+
+[data-text="target"] {
+  color: pink;
+}
+
+ul li:first-child {
+  color: red;
+}
+
+ul li:nth-child(5) {
+  color: green;
+}
+
+ul li:nth-child(8) {
+  color: blue;
+}
