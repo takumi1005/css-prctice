@@ -1,3 +1,4 @@
+@charset "UTF-8";
 a {
   color: #000;
   text-decoration: none;
@@ -68,4 +69,26 @@ ul li:nth-child(5) {
 
 ul li:nth-child(8) {
   color: blue;
+}
+
+.before-cat::before {
+  content: "▼";
+}
+
+h3::before, h3::after {
+  vertical-align: 4px;
+  display: inline-block;
+  height: 2px;
+  width: 40px;
+  border-top: 3px solid;
+  content: "";
+  flex-grow: 1;
+}
+
+h3::before {
+  margin-right: 8px;
+}
+
+h3::after {
+  margin-left: 8px;
 }

@@ -53,3 +53,21 @@ ul li:nth-child(5)
     color: green
 ul li:nth-child(8)
     color: blue
+
+.before-cat
+  &::before
+    content: "▼"
+
+h3
+  &::before, &::after
+    vertical-align: 4px
+    display: inline-block
+    height: 2px
+    width: 40px
+    border-top: 3px solid
+    content: ""
+    flex-grow: 1
+  &::before
+    margin-right: 8px
+  &::after
+    margin-left: 8px
