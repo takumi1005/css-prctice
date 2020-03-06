@@ -92,3 +92,22 @@ h3::before {
 h3::after {
   margin-left: 8px;
 }
+
+.pra8 dt {
+  float: left;
+}
+
+.pra8 dd {
+  margin: 0 0 16px 100px;
+  width: 400px;
+  border-bottom: 1px dotted;
+}
+
+.pra8 li {
+  list-style: none;
+  padding: 0;
+}
+
+.pra8 li::before {
+  content: "■";
+}
