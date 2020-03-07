@@ -2,6 +2,7 @@
 .wrapper {
   margin-left: 16px;
   padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 a {
@@ -115,4 +116,20 @@ h3::after {
 
 .pra8 li::before {
   content: "■";
+}
+
+.text-wrap {
+  width: 300px;
+  border: 1px solid;
+  padding: 12px;
+}
+
+.text-wrap p {
+  text-indent: -1rem;
+  padding-left: 1rem;
+  word-break: break-all;
+}
+
+.text-wrap > p:first-child {
+  margin-bottom: 24px;
 }
