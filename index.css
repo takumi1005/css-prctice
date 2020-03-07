@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.wrapper {
+  margin-left: 16px;
+  padding-top: 16px;
+}
+
 a {
   color: #000;
   text-decoration: none;
